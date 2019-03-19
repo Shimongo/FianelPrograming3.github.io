@@ -1,11 +1,22 @@
 ﻿body{
 
-   margin :0 auto;
-   
+   margin :0 auto !important;
+   padding-left:0;
    width: 960px;
 
   
 }
+
+
+
+
+@media (max-width: 992px) {
+  body {
+       padding-top:0 ;
+       padding-left:0rem;
+    }
+}
+
 .button1 {
     background-color:forestgreen;
 }

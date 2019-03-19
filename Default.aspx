@@ -23,8 +23,9 @@
   </script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0jSVEItSTUmAvmTLHBl9hgJf8BNuTpqY&callback=initMap&language=he"></script>
   <!-- Bootstrap core CSS -->
+     <link href="css/StyleSheet.css" rel="stylesheet" />
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/StyleSheet.css" rel="stylesheet" />
+ 
     
   <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
@@ -36,7 +37,7 @@
 
 </head>
 
-<body id="page-top ">
+<body id="page-top">
 
     
 
