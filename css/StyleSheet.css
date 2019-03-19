@@ -6,14 +6,10 @@
 
   
 }
-
-
-
-
 @media (max-width: 992px) {
   body {
        padding-top:0 ;
-       padding-left:0rem;
+       padding-left:1rem;
     }
 }
 
