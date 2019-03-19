@@ -1,6 +1,6 @@
 ﻿body{
 
-   margin :0 auto !important;
+  
    padding-left:0;
    width: 960px;
 
@@ -9,7 +9,14 @@
 @media (max-width: 992px) {
   body {
        padding-top:0 ;
-       padding-left:1rem;
+       padding-right:0rem;
+    }
+}
+
+@media (min-width: 992px) {
+  body {
+       padding-top:0 ;
+       padding-right:17rem;
     }
 }
 
