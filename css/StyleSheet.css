@@ -1,0 +1,38 @@
+﻿body{
+
+   margin-right:500px;
+    
+  
+}
+.button1 {
+    background-color:forestgreen;
+}
+
+
+.contian{
+    text-align: center;
+    right: 500px;
+    top: 17px;
+}
+
+#map{
+    height:500px;
+    width:100%;
+}
+
+.hidden {
+display:none;
+}
+
+.CitNavBar{
+    background-color: #549d9d !important;
+}
+
+.navUl
+{
+padding-right: 0px;
+}
+.h1Cit{
+ color: #549d9d;
+}
+    
