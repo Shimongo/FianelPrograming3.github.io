@@ -9,6 +9,7 @@
 
     });
 
+
     $('.hideButton').click(function () {
 
         $('.hidden').hide();
@@ -31,6 +32,29 @@ $(function () {
 });
 
 $(function () {
+    $("#primary2").click(function () {
+        if ($(this).is(":checked")) {
+            $(".Free2").show();
+            $(".Pay2").hide();
+        } else {
+            $(".Pay2").show();
+        }
+    });
+});
+
+$(function () {
+    $("#primary3").click(function () {
+        if ($(this).is(":checked")) {
+            $(".Free3").show();
+            $(".Pay3").hide();
+        } else {
+            $(".Pay3").show();
+        }
+    });
+});
+
+
+$(function () {
     $("#info").click(function () {
         if ($(this).is(":checked")) {
             $(".Free").hide();
@@ -38,6 +62,30 @@ $(function () {
             
         } else {
             $(".Free").show();
+        }
+    });
+});
+
+$(function () {
+    $("#info2").click(function () {
+        if ($(this).is(":checked")) {
+            $(".Free2").hide();
+            $(".Pay2").show();
+
+        } else {
+            $(".Free2").show();
+        }
+    });
+});
+
+$(function () {
+    $("#info3").click(function () {
+        if ($(this).is(":checked")) {
+            $(".Free3").hide();
+            $(".Pay3").show();
+
+        } else {
+            $(".Free3").show();
         }
     });
 });
