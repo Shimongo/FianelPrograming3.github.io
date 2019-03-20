@@ -21,6 +21,50 @@
 });
 
 $(function () {
+
+    $('.showButtonGuide').click(function () {
+
+        $('.hideguide1').show();
+        $('#GoogleGuide').show();
+
+        $('.showguide1').hide();
+
+    });
+
+
+    $('.HideButtonGuide').click(function () {
+
+        $('.hideguide1').hide();
+        $('#GoogleGuide').hide();
+        $('.showguide1').show();
+
+    });
+
+});
+
+$(function () {
+
+    $('.showButtonGuide2').click(function () {
+
+        $('.hideguide2').show();
+        $('#GoogleGuide2').show();
+
+        $('.showguide2').hide();
+
+    });
+
+
+    $('.HideButtonGuide2').click(function () {
+
+        $('.hideguide2').hide();
+        $('#GoogleGuide2').hide();
+        $('.showguide2').show();
+
+    });
+
+});
+
+$(function () {
     $("#primary").click(function () {
         if ($(this).is(":checked")) {
             $(".Free").show();

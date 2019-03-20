@@ -40,6 +40,23 @@
 display:none;
 }
 
+.hideguide1
+{
+display:none;
+}
+.hideguide2
+{
+display:none;
+}
+
+#GoogleGuide
+{
+    display:none;
+}
+#GoogleGuide2
+{
+    display:none;
+}
 .CitNavBar{
     background-color: #549d9d !important;
 }
@@ -54,5 +71,7 @@ padding-right: 0px;
 .hitlogo{
         width: 220px;
 }
-
+.googlepic{
+    width:865px;
+}
     
